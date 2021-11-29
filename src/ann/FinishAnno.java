@@ -1,0 +1,9 @@
+package ann;
+
+import java.lang.annotation.ElementType;
+import java.lang.annotation.Target;
+
+@Target(ElementType.TYPE)
+public @interface FinishAnno {
+    String value() default "finish";
+}
