@@ -13,7 +13,7 @@ import java.util.List;
  * @Author Hongyang Gu
  * @Date 2021/10/27 3:07 下午
  */
-@FinishAnno
+@FinishAnno(true)
 public class Problem_02_AddTwoNumber {
     /**
      * 给你两个非空 的链表，表示两个非负的整数。它们每位数字都是按照逆序的方式存储的，并且每个节点只能存储一位数字。
@@ -155,6 +155,6 @@ public class Problem_02_AddTwoNumber {
     }
     /**
      * 思路1：
-     *  将两个链表进行遍历，分别放入
+     *  将两个链表进行遍历，分别放入列表中，逐个进行计算，若计算结果超过10，则进1
      */
 }

@@ -5,5 +5,5 @@ import java.lang.annotation.Target;
 
 @Target(ElementType.TYPE)
 public @interface FinishAnno {
-    String value() default "finish";
+    boolean value() default true;
 }

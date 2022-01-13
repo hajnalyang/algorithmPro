@@ -3,6 +3,7 @@ package leetCode;
 import ann.FinishAnno;
 
 import java.util.Arrays;
+import java.util.TreeSet;
 
 /**
  * @ClassName Problem_01_two_sum
@@ -10,7 +11,7 @@ import java.util.Arrays;
  * @Author Hongyang Gu
  * @Date 2021/10/26 3:55 下午
  */
-@FinishAnno
+@FinishAnno(true)
 public class Problem_01_TwoSum {
     /**
      * 1. 两数之和
